@@ -7,6 +7,7 @@ import requests
 import simplejson
 import re
 
+
 class MailMailgun(http.Controller):
 
     @http.route('/mailgun/notify', auth='public', type='http', csrf=False)

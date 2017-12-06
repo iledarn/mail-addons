@@ -7,7 +7,7 @@ import odoo.tests
 class TestUi(odoo.tests.HttpCase):
 
     def test_01_mail_sent(self):
-        # wait till page loaded and then click and wait again
+        # wait till page loaded and then try to find element .o_web_settings_dashboard_apps
         code = """
             setTimeout(function () {
                 $(".mail_sent").click();
